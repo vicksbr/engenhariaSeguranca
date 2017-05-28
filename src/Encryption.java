@@ -48,7 +48,7 @@ public class Encryption {
 
         File originalKeyFile = new File("AES/secretKey");
         File encryptedKeyFile = new File("EncryptedFiles/encryptedSecretKey");
-        new EncryptKey(startEnc.getPublic("KeyPair/ChavePublicaJoao", "RSA"),
+        new EncryptKey(startEnc.getPublic("KeyPair/ChavePublicaMaquina", "RSA"),
                 originalKeyFile, encryptedKeyFile, "RSA");
 
         File originalFile = new File("tarefa.txt");

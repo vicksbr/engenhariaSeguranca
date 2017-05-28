@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EngSeg">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EngSeg.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

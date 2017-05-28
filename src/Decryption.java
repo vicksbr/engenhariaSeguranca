@@ -47,7 +47,7 @@ public class Decryption {
 
         File encryptedKeyReceived = new File("EncryptedFiles/encryptedSecretKey");
         File decreptedKeyFile = new File("DecryptedFiles/SecretKey");
-        new DecryptKey(startEnc.getPrivate("KeyPair/ChavePrivadaJoao", "RSA"),
+        new DecryptKey(startEnc.getPrivate("KeyPair/ChavePrivadaMaquina", "RSA"),
                 encryptedKeyReceived, decreptedKeyFile, "RSA");
 
         File encryptedFileReceived = new File("EncryptedFiles/encryptedFile");
