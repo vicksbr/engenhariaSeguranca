@@ -1,6 +1,11 @@
 /**
- * Created by puzzi on 27/05/17.
+ Universidade de São Paulo - Disciplinas de Engenharia de Segurança
+
+ Pedro Naidhig Puzzi                  - 6513497
+ Alisson Mateus de Oliveira Magalhães - 8066287
+
  */
+
 
 import java.io.File;
 import java.io.FileOutputStream;

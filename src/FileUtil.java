@@ -1,3 +1,12 @@
+
+/**
+ Universidade de São Paulo - Disciplinas de Engenharia de Segurança
+
+ Pedro Naidhig Puzzi                  - 6513497
+ Alisson Mateus de Oliveira Magalhães - 8066287
+
+ */
+
 import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;
 import java.io.File;
@@ -5,9 +14,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * Created by puzzi on 28/05/17.
- */
+
 public class FileUtil {
 
     public static void writeToFile(String path, byte[] key) throws IOException {
